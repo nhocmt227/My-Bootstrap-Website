@@ -1,5 +1,12 @@
 body {
     background-color: #E6B2BA;
+    height: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps background fixed when scrolling */
+    color: rgb(205, 232, 199) !important;
 }
 
 body > .container-fluid {
@@ -12,6 +19,7 @@ body > .container-fluid {
 
 html {
     scrollbar-width: none;
+    
 }
 
 .navbar {
@@ -73,4 +81,3 @@ footer {
     padding: 0; /* Removes extra space */
     margin: 0; /* Optional: Remove default margin */
 }
-
