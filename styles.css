@@ -30,7 +30,7 @@ html {
 .progress-bar-right {
     position: fixed;
     height: 90vh;
-    width: 2px;
+    width: 1.5px;
     right: 5rem;
     top: 0px;
     background-color: rgb(210, 141, 141);
@@ -39,7 +39,7 @@ html {
 .progress-bar-left {
     position: fixed;
     height: 90vh;
-    width: 2px;
+    width: 1.5px;
     left: 5rem;
     top: 0px;
     background-color: rgb(210, 141, 141);
