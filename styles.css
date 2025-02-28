@@ -6,7 +6,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; /* Keeps background fixed when scrolling */
-    color: rgb(205, 232, 199) !important;
+    color: rgb(193, 183, 183);
 }
 
 body > .container-fluid {
@@ -48,13 +48,13 @@ html {
 .progress-inner-right {
     background-color: rgb(87, 46, 46);
     height: 0%;
-    transition: height 1s ease-in-out
+    transition: height 1s ease-in-out;
 }
 
 .progress-inner-left {
     background-color: rgb(87, 46, 46);
     height: 0%;
-    transition: height 1s ease-in-out
+    transition: height 1s ease-in-out;
 }
 
 .active {
