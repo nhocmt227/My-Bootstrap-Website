@@ -1,0 +1,76 @@
+body {
+    background-color: #E6B2BA;
+}
+
+body > .container-fluid {
+    padding-top: 4rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+.navbar {
+    background-color: transparent !important;
+    box-shadow: none; /* Removes any shadow */
+}
+
+.progress-bar-right {
+    position: fixed;
+    height: 90vh;
+    width: 2px;
+    right: 5rem;
+    top: 0px;
+    background-color: rgb(210, 141, 141);
+}
+
+.progress-bar-left {
+    position: fixed;
+    height: 90vh;
+    width: 2px;
+    left: 5rem;
+    top: 0px;
+    background-color: rgb(210, 141, 141);
+}
+
+.progress-inner-right {
+    background-color: rgb(87, 46, 46);
+    height: 0%;
+    transition: height 1s ease-in-out
+}
+
+.progress-inner-left {
+    background-color: rgb(87, 46, 46);
+    height: 0%;
+    transition: height 1s ease-in-out
+}
+
+.active {
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    right: 10rem;
+    bottom: 10vh;
+}
+
+#side-icons {
+    position: fixed;
+    bottom: 10vh;
+    left: 1.5rem;
+}
+
+#side-icons ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes extra space */
+    margin: 0; /* Optional: Remove default margin */
+}
+
