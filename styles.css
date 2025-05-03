@@ -5,7 +5,7 @@ body {
     padding: 0;
 
     /* Background Image */
-    background-image: url('background.jpg');
+    background-image: url('background.webp');
     background-size: cover; /* Ensures full coverage */
     background-position: center;
     background-repeat: no-repeat;
